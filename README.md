@@ -4,8 +4,8 @@ This project implements an AI-powered chatbot that answers user questions based 
 # Setup & Installation (with Conda)
 1. Clone the Repository
 
-git clone https://github.com/kk06112001/AI-Powered-RAG-Chatbot.git
-cd AI-Powered-RAG-Chatbot
+•	git clone https://github.com/kk06112001/AI-Powered-RAG-Chatbot.git
+•	cd AI-Powered-RAG-Chatbot
 
 2. Create Conda Environment
 
