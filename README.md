@@ -66,4 +66,5 @@ streamlit run app.py
 
      •	If document lacks context, model may hallucinate or give vague responses.
 
-# Video link: https://drive.google.com/file/d/16PdWeECAVeoAXr22Mz0PWOL2-pyKG52U/view?usp=sharing
+
+Video link: https://drive.google.com/file/d/16PdWeECAVeoAXr22Mz0PWOL2-pyKG52U/view?usp=sharing
