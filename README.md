@@ -17,19 +17,19 @@ pip install -r requirements.txt
 Before running, export your Hugging Face token in '.env'
 
 # Step-by-Step: Preprocessing to Chatbot
-1. Preprocess the PDF
-# execute notebook/1_preprocessing.ipynb
+# 1. Preprocess the PDF
+execute notebook/1_preprocessing.ipynb
 Extracts text from the PDF.
 Chunks it into ~200-word pieces.
 Stores output in chunks/chunks.json.
 
-2. Create Embeddings and Vector Store
-# execute notebook/2_embedding_and_db.ipynb
+# 2. Create Embeddings and Vector Store
+execute notebook/2_embedding_and_db.ipynb
 Embeds chunks using all-MiniLM-L6-v2.
 Stores FAISS index in vectordb/index.faiss.
 
-3. Run Chatbot with Real-Time Streaming
-# streamlit run app.py
+# 3. Run Chatbot with Real-Time Streaming
+streamlit run app.py
 
 
 Model & Embedding Choices
