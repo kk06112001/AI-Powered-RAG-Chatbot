@@ -1,0 +1,11 @@
+# Ignore conda environment folders
+.conda/
+env/
+venv/
+
+# Ignore CSV files
+*.csv
+
+# Ignore any hidden system files (optional but recommended)
+.DS_Store
+Thumbs.db
