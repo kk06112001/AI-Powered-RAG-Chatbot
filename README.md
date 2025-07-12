@@ -1,26 +1,5 @@
 # AI Chatbot using Retrieval-Augmented Generation (RAG) with Zephyr + FAISS
 This project implements an AI-powered chatbot that answers user questions based on a PDF document, using a Retrieval-Augmented Generation (RAG) pipeline. It uses FAISS for semantic search, Zephyr-7B-Instruct as the language model, and delivers real-time streaming responses through a Streamlit interface.
-**Project Architecture & Flow**
-PDF Document ──▶ Preprocessing ──▶ Chunking (nltk)
-                                   │
-                                   ▼
-                        all-MiniLM-L6-v2 Embeddings
-                                   │
-                                   ▼
-                          FAISS Vector Store (Index)
-                                   │
-         ┌──────────── Query Embedding ─────────────┐
-         ▼                                          ▼
-    User Query ──▶ Top-K Chunk Retrieval ◀── Similarity Search
-                                   │
-                                   ▼
-                   Prompt Construction with Context
-                                   │
-                                   ▼
-             Response Generation (Zephyr-7B-Instruct)
-                                   │
-                                   ▼
-                  Streaming Response via Streamlit UI
 
 # Setup & Installation (with Conda)
 1. Clone the Repository
