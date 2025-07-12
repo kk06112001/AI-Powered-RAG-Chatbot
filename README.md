@@ -3,17 +3,21 @@ This project implements an AI-powered chatbot that answers user questions based 
 
 # Setup & Installation (with Conda)
 1. Clone the Repository
+
 git clone https://github.com/kk06112001/AI-Powered-RAG-Chatbot.git
 cd AI-Powered-RAG-Chatbot
 
 2. Create Conda Environment
+
 conda create -n rag-chatbot python=3.10.18
 conda activate rag-chatbot
 
 3. Install Dependencies
+
 pip install -r requirements.txt
 
 4. Set HuggingFace API Token
+
 Before running, export your Hugging Face token in '.env'
 
 # Step-by-Step: Preprocessing to Chatbot
@@ -32,7 +36,7 @@ Stores FAISS index in vectordb/index.faiss.
 streamlit run app.py
 
 
-Model & Embedding Choices
+# Model & Embedding Choices
 🔹 Embedding Model: all-MiniLM-L6-v2
 Fast and lightweight.
 384-dimension embeddings.
