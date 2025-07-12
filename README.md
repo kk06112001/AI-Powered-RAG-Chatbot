@@ -2,6 +2,7 @@
 This project implements an AI-powered chatbot that answers user questions based on a PDF document, using a Retrieval-Augmented Generation (RAG) pipeline. It uses FAISS for semantic search, Zephyr-7B-Instruct as the language model, and delivers real-time streaming responses through a Streamlit interface.
 
 # Setup & Installation (with Conda)
+
 1. Clone the Repository
 
      •	git clone https://github.com/kk06112001/AI-Powered-RAG-Chatbot.git
@@ -23,6 +24,7 @@ This project implements an AI-powered chatbot that answers user questions based 
 Before running, export your Hugging Face token in '.env'
 
 # Step-by-Step: Preprocessing to Chatbot
+
 # 1. Preprocess the PDF
 execute notebook/1_preprocessing.ipynb
 
